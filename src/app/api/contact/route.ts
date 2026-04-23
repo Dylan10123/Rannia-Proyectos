@@ -132,6 +132,7 @@ export async function POST(request: Request) {
   });
 
   if (dbError) {
+    console.error("[Supabase] Error insertando lead:", dbError);
     return Response.json(
       { error: "No se pudo guardar tu solicitud. Por favor, inténtalo de nuevo." },
       { status: 500 }
