@@ -44,40 +44,7 @@ supabase/
 
 ## Colores de marca
 
-`#43473e`
-
-<table>
-<tr>
-<td align="center" valign="top">
-<table cellspacing="0" cellpadding="6" width="150">
-<tr><td align="center" bgcolor="#6b7280"><strong>CTAs · Dorado corporativo</strong></td></tr>
-<tr><td bgcolor="#9f804f" height="80"></td></tr>
-</table>
-<code>primary · #9f804f</code>
-</td>
-<td align="center" valign="top">
-<table cellspacing="0" cellpadding="6" width="150">
-<tr><td align="center" bgcolor="#6b7280"><strong>Fondo principal</strong></td></tr>
-<tr><td bgcolor="#fdfcf5" height="80"></td></tr>
-</table>
-<code>background · #fdfcf5</code>
-</td>
-<td align="center" valign="top">
-<table cellspacing="0" cellpadding="6" width="150">
-<tr><td align="center" bgcolor="#6b7280"><strong>Acento · Confianza</strong></td></tr>
-<tr><td bgcolor="#7286a6" height="80"></td></tr>
-</table>
-<code>accent · #7286a6</code>
-</td>
-<td align="center" valign="top">
-<table cellspacing="0" cellpadding="6" width="150">
-<tr><td align="center" bgcolor="#6b7280"><strong>Texto principal</strong></td></tr>
-<tr><td bgcolor="#43473e" height="80"></td></tr>
-</table>
-<code>dark · `#43473e`</code>
-</td>
-</tr>
-</table>
+![Paleta de colores corporativos](public/paleta.png)
 
 ## Despliegue
 
