@@ -151,7 +151,7 @@ export async function POST(request: Request) {
     const safeTelefono = escapeHtml(telefono);
     const safeMensaje  = escapeHtml(mensaje || "—").replace(/\n/g, "<br>");
 
-    await resend.emails.send({
+    try { await resend.emails.send({
       from: fromEmail,
       to: toEmail,
       subject: `[Rannia] Nuevo lead: ${safeNombre}`,
@@ -321,7 +321,9 @@ export async function POST(request: Request) {
         </body>
         </html>
       `,
-    });
+    }); } catch (emailError) {
+      console.error("[Resend] Error enviando emails:", emailError);
+    }
   }
 
   return Response.json({ success: true }, { status: 200 });
