@@ -42,45 +42,40 @@ supabase/
     └── 001_create_leads_table.sql
 ```
 
-## Configuración local
-
-1. Clonar el repositorio e instalar dependencias:
-
-```bash
-npm install
-```
-
-2. Copiar el archivo de variables de entorno y rellenar los valores:
-
-```bash
-cp .env.local.example .env.local
-```
-
-| Variable | Descripción |
-|----------|-------------|
-| `NEXT_PUBLIC_SUPABASE_URL` | URL del proyecto Supabase |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Clave anónima pública de Supabase |
-| `RESEND_API_KEY` | API key de Resend |
-| `RESEND_FROM_EMAIL` | Email remitente verificado en Resend |
-| `RESEND_TO_EMAIL` | Email donde llegan las notificaciones de leads |
-| `NEXT_PUBLIC_SITE_URL` | URL pública del sitio (ej: `https://ranniamodular.es`) |
-
-3. Aplicar la migración de base de datos en Supabase (tabla `leads` con RLS).
-
-4. Arrancar el servidor de desarrollo:
-
-```bash
-npm run dev
-```
-
 ## Colores de marca
 
-| Token | Hex | Uso |
-|-------|-----|-----|
-| `primary` | `#9f804f` | Dorado corporativo, CTAs |
-| `background` | `#fdfcf5` | Fondo crema |
-| `accent` | `#7286a6` | Azul grisáceo |
-| `dark` | `#43473e` | Texto principal |
+<table>
+<tr>
+<td align="center" valign="top">
+<table cellspacing="0" cellpadding="6" width="150">
+<tr><td align="center" bgcolor="#6b7280"><strong>CTAs · Dorado corporativo</strong></td></tr>
+<tr><td bgcolor="#9f804f" height="80"></td></tr>
+</table>
+<code>primary · #9f804f</code>
+</td>
+<td align="center" valign="top">
+<table cellspacing="0" cellpadding="6" width="150">
+<tr><td align="center" bgcolor="#6b7280"><strong>Fondo principal</strong></td></tr>
+<tr><td bgcolor="#fdfcf5" height="80"></td></tr>
+</table>
+<code>background · #fdfcf5</code>
+</td>
+<td align="center" valign="top">
+<table cellspacing="0" cellpadding="6" width="150">
+<tr><td align="center" bgcolor="#6b7280"><strong>Acento · Confianza</strong></td></tr>
+<tr><td bgcolor="#7286a6" height="80"></td></tr>
+</table>
+<code>accent · #7286a6</code>
+</td>
+<td align="center" valign="top">
+<table cellspacing="0" cellpadding="6" width="150">
+<tr><td align="center" bgcolor="#6b7280"><strong>Texto principal</strong></td></tr>
+<tr><td bgcolor="#43473e" height="80"></td></tr>
+</table>
+<code>dark · #43473e</code>
+</td>
+</tr>
+</table>
 
 ## Despliegue
 
