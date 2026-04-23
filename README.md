@@ -72,7 +72,7 @@ supabase/
 <tr><td align="center" bgcolor="#6b7280"><strong>Texto principal</strong></td></tr>
 <tr><td bgcolor="#43473e" height="80"></td></tr>
 </table>
-<code>dark · #43473e</code>
+<code>dark · `#43473e`</code>
 </td>
 </tr>
 </table>
