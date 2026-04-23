@@ -44,6 +44,8 @@ supabase/
 
 ## Colores de marca
 
+`#43473e`
+
 <table>
 <tr>
 <td align="center" valign="top">
