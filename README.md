@@ -45,7 +45,3 @@ supabase/
 ## Colores de marca
 
 ![Paleta de colores corporativos](public/paleta.png)
-
-## Despliegue
-
-Recomendado en **Vercel**. Configurar las variables de entorno en el panel del proyecto antes del primer despliegue. Asegurarse de tener el dominio verificado en Resend para que los emails no caigan en spam.
